@@ -61,13 +61,19 @@ User Request → Webhook → AI Agent → Tool Selection → Action Execution �
    * Receives user input (message)
 
 
+
+
 2.**AI Agent**
    * Understands intent
    * Decides which tool to use
 
 
+
+
 3. **Memory Buffer**
    * Stores conversation context
+
+
 
 
 4.**Tool Execution:**
@@ -79,8 +85,12 @@ User Request → Webhook → AI Agent → Tool Selection → Action Execution �
    * Calculator
 
 
+
+
 5. **Response Node**
    * Sends output back to user
+
+
 
 
 
@@ -97,13 +107,17 @@ User Request → Webhook → AI Agent → Tool Selection → Action Execution �
 
 
 
+
 -> **Setup Instructions:**
+
 
 1. Import Workflow
 * Download the JSON file
 * Open n8n
 * Click **Import Workflow**
 * Upload the file
+
+
 
 2. Configure Credentials
 Connect the following services:
@@ -115,8 +129,10 @@ Connect the following services:
 * Google Gemini API
 
 
+
 3. Activate Workflow
 * Turn ON the workflow in n8n
+
 
 
 
@@ -136,12 +152,15 @@ Example request body:
 }
 ```
 
+
+
 ->**Example Use Cases**
 * "Schedule a meeting tomorrow"
 * "Show my emails"
 * "Add expense: Food 500"
 * "What is the weather today?"
 * "Create a task: Complete assignment"
+
 
 
 
@@ -163,7 +182,11 @@ Example request body:
 
 
 
+
+
 -> Author: **Tayyaba**
+
+
 
 
 
