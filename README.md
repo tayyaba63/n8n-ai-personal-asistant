@@ -1,6 +1,7 @@
- AI Personal Assistant Workflow (n8n)
+**AI Personal Assistant Workflow (n8n)**
 
--> Overview
+
+-> **Overview**
 
 This project is an " AI-powered Personal Assistant built using n8n ".
 It automates daily tasks like managing emails, scheduling events, tracking expenses, and handling notes — all through a single intelligent workflow.
@@ -9,31 +10,36 @@ The assistant understands user input, decides the correct action, and uses integ
 
 
 
--> Features
+-> **Features**
 
 🔍 Information & Web Search
 * Fetch real-time information using Google Search
 * Answer general queries intelligently
 
+
 📅 Calendar Management
 * Create calendar events
 * Get single or multiple events
-* Manage schedules بسهولة
+* Manage schedules 
+
 
 📧 Email Automation (Gmail)
 * Read emails
 * Fetch multiple messages
 * Send or reply to emails automatically
 
+
 📝 Notes & Task Management
 * Create tasks
 * Fetch tasks
 * Delete completed tasks
 
+
 📊 Expense Tracking
 * Add expenses to Google Sheets
 * Retrieve expense records
 * Perform calculations using built-in calculator
+
 
 🧠 AI-Powered Decision Making
 * Uses AI Agent to understand user intent
@@ -42,22 +48,22 @@ The assistant understands user input, decides the correct action, and uses integ
 
 
 
--> Workflow Architecture:
+-> **Workflow Architecture:**
 The workflow follows this structure:
 
 User Request → Webhook → AI Agent → Tool Selection → Action Execution → Response
 
-1. Webhook Trigger
+1.** Webhook Trigger**
    * Receives user input (message)
 
-2. AI Agent
+2.** AI Agent**
    * Understands intent
    * Decides which tool to use
 
-3. Memory Buffer
+3. **Memory Buffer**
    * Stores conversation context
 
-4. Tool Execution:
+4.** Tool Execution:**
    * Google Calendar
    * Gmail
    * Google Sheets
@@ -65,10 +71,10 @@ User Request → Webhook → AI Agent → Tool Selection → Action Execution �
    * Web Search
    * Calculator
 
-5. Response Node
+5. **Response Node**
    * Sends output back to user
 
-⚙️ Technologies Used:
+⚙️ **Technologies Used:**
 * n8n – Workflow automation
 * Google Gemini (LLM) – AI reasoning
 * SerpAPI – Web search
@@ -80,7 +86,7 @@ User Request → Webhook → AI Agent → Tool Selection → Action Execution �
 
 
 
--> Setup Instructions
+-> **Setup Instructions:**
 
 1. Import Workflow
 * Download the JSON file
@@ -117,8 +123,7 @@ Example request body:
 }
 ```
 
--> Example Use Cases
-
+->**Example Use Cases**
 * "Schedule a meeting tomorrow"
 * "Show my emails"
 * "Add expense: Food 500"
@@ -126,14 +131,14 @@ Example request body:
 * "Create a task: Complete assignment"
 
 
--> Notes & Best Practices
+-> **Notes & Best Practices**
 
 * Ensure all APIs are properly authenticated
 * Do not expose API keys publicly
 * Confirm destructive actions (like deleting tasks)
 
 
--> Future Improvements
+-> **Future Improvements**
 
 * WhatsApp / Telegram integration
 * Voice assistant support
@@ -141,15 +146,18 @@ Example request body:
 * Multi-user support
 
 
+
 -> Author: **Tayyaba**
 
 
-⭐ Support
+
+⭐ **Support**
 If you like this project:
 * Give it a ⭐ on GitHub
 * Share with others
 
 
--> License
+
+->**License**
 
 This project is open-source and free to use.
